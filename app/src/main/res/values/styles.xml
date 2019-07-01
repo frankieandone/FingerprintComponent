@@ -1,0 +1,52 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme"
+           parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="SigninTitleStyle"
+           parent="TextAppearance.AppCompat.Headline">
+        <item name="android:padding">8dp</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:text">App locked</item>
+    </style>
+
+    <style name="SigninSubtitleStyle"
+           parent="TextAppearance.AppCompat.Caption">
+        <item name="android:padding">8dp</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:text">Please use your fingerprint to unlock the app.</item>
+    </style>
+
+    <style name="SigninFingerprintIconStyle">
+        <item name="android:padding">8dp</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:src">@drawable/ic_fingerprint</item>
+        <item name="civ_border_width">2dp</item>
+        <item name="civ_border_color">@color/pinkDark</item>
+    </style>
+
+    <style name="SigninAlternativeActionStyle"
+           parent="TextAppearance.AppCompat.Button">
+        <item name="android:padding">8dp</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:text">Use PIN instead</item>
+    </style>
+
+    <style name="SigninPinStyle" parent="TextAppearance.AppCompat.Button">
+        <item name="android:background">@drawable/background_circle_button</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:text">1</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/yellow</item>
+    </style>
+</resources>
